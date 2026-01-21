@@ -1,0 +1,23 @@
+Description
+
+This project is a maze-based game implemented in C++.
+The maze is generated using Prim’s algorithm, and the player navigates through the maze while interacting with enemies.
+
+Files
+
+Main.cpp – Program entry point
+
+PrimMaze.h – Maze generation using Prim’s algorithm
+
+Player.h – Player logic and movement
+
+Enemy.h – Enemy behavior
+
+SLLPriorityQueue.h – Priority queue used for maze generation
+
+How to Run
+
+Compile and run using a C++ compiler (example with g++):
+
+g++ Main.cpp -o maze_game
+./maze_game
